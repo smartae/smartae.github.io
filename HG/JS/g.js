@@ -55,7 +55,7 @@ if(localStorage.getItem("C") !== null){
     }
     else {
         sCount.style.direction="ltr";
-        sCount.textContent=`Sir(i) thfad(i) :) [${count}]`;
+        sCount.textContent=`Sir(i) thafd(i) :) [${count}]`;
     }
 }
 function f(t,event,b){
@@ -66,7 +66,7 @@ function f(t,event,b){
         }
         else {
             sCount.style.direction="ltr";
-            sCount.textContent=`Sir(i) thfad(i) :) [${count}]`;
+            sCount.textContent=`Sir(i) thafd(i) :) [${count}]`;
         }
         localStorage.setItem("C",count);
     }
@@ -99,4 +99,5 @@ fetch("/get/t.json").then((d)=>d.json()).then((data)=>{
 fetch(`/get/JSON/${localStorage.getItem("A")}.json`).then((d)=>d.json()).then((data)=>{
     all=data;
     a(all);
+
 });
