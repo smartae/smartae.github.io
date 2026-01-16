@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5c030b;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+body nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    background-color: #350105;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 5px black;
+}
+body nav .logo{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    gap:5px;
+    direction: ltr;
+}
+body nav .logo .img{
+    background-image: url('../../Assets/Icons/sae3.png');
+    width:35px;
+    height:35px;
+    background-size: cover;
+}
+body a.logo{
+    text-decoration: none;
+}
+body nav .logo div:last-child>span{
+    color:#7b322e;
+    display:inline-block
+}
+body nav .logo div:last-child>span::first-letter{
+    color:#5c030b;
+}
+body .container{
+    width:900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 65px;
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body .container div.g{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #350105;
+    padding:25px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+}
+body .container .g>div:nth-child(2){
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+body .container span.count{
+    background-color: #1e0103;
+    position: absolute;
+    bottom: -30px;
+    left:0;
+    width:100%;
+    height: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+body .container .g>div>div{
+    width:100px;
+    height: 100px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #7b322e;
+}
+body div.msg{
+    position: fixed;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    color:white;
+    font-weight: 500;
+    font-size: 2.5em;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+body footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:26px 0;
+    direction: ltr;
+    flex-wrap: wrap;
+}
+body footer>div{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+body footer a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+body footer a.wa{
+    display: inline-block;
+    width: 30px;
+    aspect-ratio: 1/1;
+    background-image: url('/Assets/wa.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-color: #350105;
+}
+body footer div.A{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3;
+    font-weight: 600;
+}
+body footer div.A>a{
+    width:30px;
+    aspect-ratio: 1/1;
+    background-image: url('/Assets/logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width:900px) {
+    body div.container{
+        width:98%;
+    }
+}
+@media (max-width:600px) {
+    body footer{
+        flex-direction: column;
+    }
+}
