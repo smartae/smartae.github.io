@@ -33,7 +33,7 @@ body nav .logo{
     direction: ltr;
 }
 body nav .logo .img{
-    background-image: url('../../Assets/Icons/sae3.png');
+    background-image: url('../../Assets/Icons/icon192.png');
     width:35px;
     height:35px;
     background-size: cover;
@@ -168,4 +168,5 @@ body footer div.A>a{
     body footer{
         flex-direction: column;
     }
+
 }
