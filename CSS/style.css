@@ -227,6 +227,7 @@ body footer a.wa{
     background-position: center;
     border-radius: 50%;
     background-color: #350105;
+    border: 2px solid #350105;
 }
 body footer div.A{
     width:100%;
@@ -257,5 +258,6 @@ body footer div.A>a{
     }
 
 }
+
 
 
