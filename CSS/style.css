@@ -169,13 +169,13 @@ body div.wh{
     gap:5px;
 }
 body div.wh>div.dr{
-    background-image: url('/drl.png');
+    background-image: url('/Assets/drl.png');
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
 }
 body div.wh>div.d:not(.dr){
-    background-image: url('/l.png');
+    background-image: url('/Assets/l.png');
     background-size: 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -257,3 +257,4 @@ body footer div.A>a{
     }
 
 }
+
