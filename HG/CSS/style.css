@@ -95,7 +95,7 @@ body .container span.count{
 body .container .g>div>div{
     width:100px;
     height: 100px;
-    background-size: 90%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
@@ -171,4 +171,5 @@ body footer div.A>a{
     }
 
 }
+
 
