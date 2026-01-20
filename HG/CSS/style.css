@@ -101,6 +101,7 @@ body .container .g>div>div{
     border-radius: 5px;
     cursor: pointer;
     background-color: #7b322e;
+    border:3px solid #7b322e;
 }
 body div.msg{
     position: fixed;
@@ -171,5 +172,6 @@ body footer div.A>a{
     }
 
 }
+
 
 
