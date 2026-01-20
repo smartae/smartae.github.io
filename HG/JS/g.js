@@ -72,6 +72,7 @@ function f(t,event,b){
     }
     if(b === all[randomN].name){
         event.target.style.backgroundColor="green";
+        event.target.style.borderColor="green";
         count++;
         k();
         msg.style.display="flex";
@@ -82,10 +83,12 @@ function f(t,event,b){
         return;
     }
     event.target.style.backgroundColor="red";
+    event.target.style.borderColor="red";
     count--;
     k();
     setTimeout(() => {
         event.target.style.backgroundColor="#7b322e";
+        event.target.style.borderColor="#7b322e";
     }, 1000);
 }
 fetch("/get/t.json").then((d)=>d.json()).then((data)=>{
@@ -101,4 +104,5 @@ fetch(`/get/JSON/${localStorage.getItem("A")}.json`).then((d)=>d.json()).then((d
     a(all);
 
 });
+
 
