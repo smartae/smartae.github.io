@@ -199,6 +199,11 @@ body div.wh>div:not(.d){
 body div.wh>div:not(.d)>div{
     width:50%;
 }
+body div.dd{
+    cursor: pointer;
+    user-select: none;
+}
+
 body footer{
     width: 100%;
     display: flex;
@@ -258,6 +263,7 @@ body footer div.A>a{
     }
 
 }
+
 
 
 
