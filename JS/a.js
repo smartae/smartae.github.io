@@ -15,12 +15,13 @@ for(let v of dd){
         str+=v.getAttribute("d");
         v.style.color="#c8c8c8";
         if(str === "abc"){
-            window.open("https://smartae.github.io/6589/","_self");
+            document.querySelector("a#open").style.display="flex";
         }
         setTimeout(()=>{
             str="";
             for(let k of dd)
                 k.style.color="white";
-        },3000);
+        },5000);
     });
 }
+
