@@ -204,6 +204,21 @@ body div.dd{
     user-select: none;
 }
 
+body a#open{
+    direction: rtl;
+    width:200px;
+    background-color: green;
+    font-size: 1.6;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 10px;
+}
+
 body footer{
     width: 100%;
     display: flex;
@@ -263,6 +278,7 @@ body footer div.A>a{
     }
 
 }
+
 
 
 
